@@ -30,7 +30,7 @@
                     </template>
                     <div class="d-flex justify-space-between ma-2">
                         <v-card-title class="d-flex">
-                            Demo Project
+                            Extractions DP
                         </v-card-title>
                         <div class="d-flex justify-center">
                             <v-btn class="text-none text-subtitle-1" prepend-icon="mdi-microsoft-excel" color="green"  @click="downloadExcel" variant="flat">
