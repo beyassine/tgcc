@@ -1,0 +1,2503 @@
+{
+  "docType": "tgcc-dp",
+  "confidence": 0.999,
+  "fields": {
+      "chantier": {
+          "type": "string",
+          "valueString": "TCC",
+          "content": "TCC",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      5.0683,
+                      1.6807,
+                      5.2446,
+                      1.6796,
+                      5.2451,
+                      1.7616,
+                      5.0688,
+                      1.7626
+                  ]
+              }
+          ],
+          "confidence": 0.97,
+          "spans": [
+              {
+                  "offset": 90,
+                  "length": 3
+              }
+          ]
+      },
+      "maitre_ouvrage": {
+          "type": "string",
+          "valueString": "CASA TEMARA DEVELOPPEMENT",
+          "content": "CASA TEMARA DEVELOPPEMENT",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      4.4573,
+                      1.8195,
+                      5.8555,
+                      1.8125,
+                      5.856,
+                      1.9095,
+                      4.4578,
+                      1.9165
+                  ]
+              }
+          ],
+          "confidence": 0.942,
+          "spans": [
+              {
+                  "offset": 94,
+                  "length": 25
+              }
+          ]
+      },
+      "lot": {
+          "type": "string",
+          "valueString": "Enduit intérieur projeté au platre",
+          "content": "Enduit intérieur projeté au platre",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      4.45,
+                      1.9695,
+                      5.8652,
+                      1.9654,
+                      5.8655,
+                      2.0655,
+                      4.4503,
+                      2.0696
+                  ]
+              }
+          ],
+          "confidence": 0.681,
+          "spans": [
+              {
+                  "offset": 120,
+                  "length": 34
+              }
+          ]
+      },
+      "sstraitant": {
+          "type": "string",
+          "valueString": "GROUPE FZ MELLALI",
+          "content": "GROUPE FZ MELLALI",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      2.6129,
+                      2.1394,
+                      3.487,
+                      2.1355,
+                      3.4874,
+                      2.221,
+                      2.6133,
+                      2.2249
+                  ]
+              }
+          ],
+          "confidence": 0.948,
+          "spans": [
+              {
+                  "offset": 169,
+                  "length": 17
+              }
+          ]
+      },
+      "numero": {
+          "type": "string",
+          "valueString": "3",
+          "content": "3",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      1.5561,
+                      3.2948,
+                      1.6094,
+                      3.2944,
+                      1.6101,
+                      3.3814,
+                      1.5568,
+                      3.3818
+                  ]
+              }
+          ],
+          "confidence": 0.969,
+          "spans": [
+              {
+                  "offset": 391,
+                  "length": 1
+              }
+          ]
+      },
+      "date_dp": {
+          "type": "string",
+          "valueString": "31/05/2023",
+          "content": "31/05/2023",
+          "boundingRegions": [
+              {
+                  "pageNumber": 1,
+                  "polygon": [
+                      7.1465,
+                      3.2601,
+                      7.6856,
+                      3.2558,
+                      7.6864,
+                      3.355,
+                      7.1473,
+                      3.3593
+                  ]
+              }
+          ],
+          "confidence": 0.975,
+          "spans": [
+              {
+                  "offset": 398,
+                  "length": 10
+              }
+          ]
+      },
+      "dp": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "designation": {
+                          "type": "string",
+                          "valueString": "MONTANT Contrat en Dhs HT",
+                          "content": "MONTANT Contrat en Dhs HT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5516,
+                                      3.4759,
+                                      1.7178,
+                                      3.4745,
+                                      1.7179,
+                                      3.5666,
+                                      0.5517,
+                                      3.568
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.652,
+                          "spans": [
+                              {
+                                  "offset": 409,
+                                  "length": 25
+                              }
+                          ]
+                      },
+                      "montant": {
+                          "type": "string",
+                          "valueString": "570 000,00\nAVANCE",
+                          "content": "570 000,00\nAVANCE",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.8109,
+                                      3.458,
+                                      4.6627,
+                                      3.452,
+                                      4.6633,
+                                      3.5409,
+                                      3.8115,
+                                      3.5469
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.674,
+                          "spans": [
+                              {
+                                  "offset": 435,
+                                  "length": 17
+                              }
+                          ]
+                      },
+                      "avance": {
+                          "type": "string",
+                          "confidence": 0.531
+                      },
+                      "montant_avance": {
+                          "type": "string",
+                          "confidence": 0.947
+                      }
+                  },
+                  "confidence": 0.624
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "designation": {
+                          "type": "string",
+                          "valueString": "Avenant Nº1 HT",
+                          "content": "Avenant Nº1 HT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5484,
+                                      3.6629,
+                                      1.1871,
+                                      3.6569,
+                                      1.1879,
+                                      3.7439,
+                                      0.5492,
+                                      3.7498
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.196,
+                          "spans": [
+                              {
+                                  "offset": 453,
+                                  "length": 14
+                              }
+                          ]
+                      },
+                      "montant": {
+                          "type": "string",
+                          "valueString": "438 026,00",
+                          "content": "438 026,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.8137,
+                                      3.6344,
+                                      4.2575,
+                                      3.6319,
+                                      4.258,
+                                      3.7214,
+                                      3.8142,
+                                      3.7239
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.924,
+                          "spans": [
+                              {
+                                  "offset": 468,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "avance": {
+                          "type": "string",
+                          "confidence": 0.531
+                      },
+                      "montant_avance": {
+                          "type": "string",
+                          "confidence": 0.947
+                      }
+                  },
+                  "confidence": 0.248
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "designation": {
+                          "type": "string",
+                          "valueString": "TOTAL MARCHE Y CPIS AVENANT en Dhs HT",
+                          "content": "TOTAL MARCHE Y CPIS AVENANT en Dhs HT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.551,
+                                      4.0467,
+                                      2.3171,
+                                      4.0368,
+                                      2.3176,
+                                      4.1296,
+                                      0.5515,
+                                      4.1395
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.705,
+                          "spans": [
+                              {
+                                  "offset": 479,
+                                  "length": 37
+                              }
+                          ]
+                      },
+                      "montant": {
+                          "type": "string",
+                          "valueString": "1 008 026,00",
+                          "content": "1 008 026,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7297,
+                                      4.0277,
+                                      4.2547,
+                                      4.0284,
+                                      4.2546,
+                                      4.1154,
+                                      3.7296,
+                                      4.1146
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.958,
+                          "spans": [
+                              {
+                                  "offset": 517,
+                                  "length": 12
+                              }
+                          ]
+                      },
+                      "avance": {
+                          "type": "string",
+                          "confidence": 0.531
+                      },
+                      "montant_avance": {
+                          "type": "string",
+                          "confidence": 0.947
+                      }
+                  },
+                  "confidence": 0.643
+              }
+          ],
+          "confidence": 0.198
+      },
+      "appro": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "type": {
+                          "type": "string",
+                          "valueString": "Approvisionnement Matériaux Dhs HT",
+                          "content": "Approvisionnement Matériaux Dhs HT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5544,
+                                      4.6896,
+                                      2.063,
+                                      4.6771,
+                                      2.0638,
+                                      4.7698,
+                                      0.5552,
+                                      4.7823
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.568,
+                          "spans": [
+                              {
+                                  "offset": 616,
+                                  "length": 34
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "122 734,50",
+                          "content": "122 734,50",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2418,
+                                      4.6057,
+                                      3.6746,
+                                      4.6052,
+                                      3.6747,
+                                      4.6903,
+                                      3.2419,
+                                      4.6908
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.98,
+                          "spans": [
+                              {
+                                  "offset": 651,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.0768,
+                                      4.5975,
+                                      5.2558,
+                                      4.5973,
+                                      5.2559,
+                                      4.6756,
+                                      5.0769,
+                                      4.6758
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.962,
+                          "spans": [
+                              {
+                                  "offset": 662,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "122 734,50",
+                          "content": "122 734,50",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.6433,
+                                      4.5848,
+                                      7.0875,
+                                      4.5842,
+                                      7.0876,
+                                      4.6699,
+                                      6.6434,
+                                      4.6705
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.954,
+                          "spans": [
+                              {
+                                  "offset": 667,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.582
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "type": {
+                          "type": "string",
+                          "valueString": "Total Approvisionnement Matériaux Dhs TTC (0)",
+                          "content": "Total Approvisionnement Matériaux Dhs TTC (0)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5532,
+                                      4.8031,
+                                      2.4655,
+                                      4.7911,
+                                      2.4661,
+                                      4.882,
+                                      0.5538,
+                                      4.894
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.911,
+                          "spans": [
+                              {
+                                  "offset": 678,
+                                  "length": 45
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "147 281,40",
+                          "content": "147 281,40",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2309,
+                                      4.7988,
+                                      3.675,
+                                      4.7969,
+                                      3.6753,
+                                      4.8783,
+                                      3.2312,
+                                      4.8802
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.979,
+                          "spans": [
+                              {
+                                  "offset": 724,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.0774,
+                                      4.7893,
+                                      5.2505,
+                                      4.7879,
+                                      5.2511,
+                                      4.8641,
+                                      5.078,
+                                      4.8655
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 735,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "147 281,40",
+                          "content": "147 281,40",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.6468,
+                                      4.7761,
+                                      7.0882,
+                                      4.7741,
+                                      7.0886,
+                                      4.8578,
+                                      6.6472,
+                                      4.8598
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.952,
+                          "spans": [
+                              {
+                                  "offset": 740,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.92
+              }
+          ],
+          "confidence": 0.573
+      },
+      "travaux": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "1-1 TRAVAUX AU CONTRAT",
+                          "content": "1-1 TRAVAUX AU CONTRAT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5586,
+                                      5.5088,
+                                      1.6551,
+                                      5.5024,
+                                      1.6556,
+                                      5.5878,
+                                      0.5591,
+                                      5.5942
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.966,
+                          "spans": [
+                              {
+                                  "offset": 842,
+                                  "length": 22
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.119
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.13
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "confidence": 0.112
+                      }
+                  },
+                  "confidence": 0.508
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "* AU METRE",
+                          "content": "* AU METRE",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.6334,
+                                      5.6841,
+                                      1.1276,
+                                      5.6834,
+                                      1.1277,
+                                      5.7661,
+                                      0.6335,
+                                      5.7668
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.953,
+                          "spans": [
+                              {
+                                  "offset": 865,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "769 614,06",
+                          "content": "769 614,06",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2356,
+                                      5.6346,
+                                      3.6755,
+                                      5.6352,
+                                      3.6754,
+                                      5.7209,
+                                      3.2355,
+                                      5.7203
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.974,
+                          "spans": [
+                              {
+                                  "offset": 876,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "468 305,50",
+                          "content": "468 305,50",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      4.9388,
+                                      5.6264,
+                                      5.3849,
+                                      5.6261,
+                                      5.3849,
+                                      5.7116,
+                                      4.9388,
+                                      5.7118
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 887,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "301 308,56",
+                          "content": "301 308,56",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.643,
+                                      5.6121,
+                                      7.0939,
+                                      5.6097,
+                                      7.0944,
+                                      5.6986,
+                                      6.6435,
+                                      5.701
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.972,
+                          "spans": [
+                              {
+                                  "offset": 898,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.946
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "* AU FORFAIT",
+                          "content": "* AU FORFAIT",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.636,
+                                      5.8609,
+                                      1.1985,
+                                      5.858,
+                                      1.1989,
+                                      5.9444,
+                                      0.6364,
+                                      5.9473
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.809,
+                          "spans": [
+                              {
+                                  "offset": 909,
+                                  "length": 12
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7852,
+                                      5.794,
+                                      6.957,
+                                      5.7932,
+                                      6.9574,
+                                      5.8744,
+                                      6.7856,
+                                      5.8752
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.967,
+                          "spans": [
+                              {
+                                  "offset": 922,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.119
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.13
+                      }
+                  },
+                  "confidence": 0.759
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "1-2 REVISION DE PRIX",
+                          "content": "1-2 REVISION DE PRIX",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5603,
+                                      6.0378,
+                                      1.4496,
+                                      6.0336,
+                                      1.45,
+                                      6.1207,
+                                      0.5607,
+                                      6.1249
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.97,
+                          "spans": [
+                              {
+                                  "offset": 927,
+                                  "length": 20
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7855,
+                                      5.9706,
+                                      6.957,
+                                      5.969,
+                                      6.9578,
+                                      6.0525,
+                                      6.7863,
+                                      6.0541
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.974,
+                          "spans": [
+                              {
+                                  "offset": 948,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.119
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.13
+                      }
+                  },
+                  "confidence": 0.914
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "1-3 AVENANT Nº01",
+                          "content": "1-3 AVENANT Nº01",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5685,
+                                      6.2129,
+                                      1.324,
+                                      6.2091,
+                                      1.3244,
+                                      6.2967,
+                                      0.5689,
+                                      6.3005
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.452,
+                          "spans": [
+                              {
+                                  "offset": 953,
+                                  "length": 16
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7856,
+                                      6.1464,
+                                      6.957,
+                                      6.1455,
+                                      6.9574,
+                                      6.228,
+                                      6.786,
+                                      6.2289
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.972,
+                          "spans": [
+                              {
+                                  "offset": 970,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.119
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.13
+                      }
+                  },
+                  "confidence": 0.436
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "1-4 AVENANT Nº02",
+                          "content": "1-4 AVENANT Nº02",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5633,
+                                      6.3788,
+                                      1.3298,
+                                      6.3737,
+                                      1.3304,
+                                      6.4607,
+                                      0.5639,
+                                      6.4658
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.4,
+                          "spans": [
+                              {
+                                  "offset": 975,
+                                  "length": 16
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7862,
+                                      6.3225,
+                                      6.9594,
+                                      6.3214,
+                                      6.9599,
+                                      6.4043,
+                                      6.7867,
+                                      6.4054
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.972,
+                          "spans": [
+                              {
+                                  "offset": 992,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.119
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.13
+                      }
+                  },
+                  "confidence": 0.375
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "1-DETAIL DES TRAVAUX REALISES": {
+                          "type": "string",
+                          "valueString": "TOTAL (1)",
+                          "content": "TOTAL (1)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5593,
+                                      6.5441,
+                                      0.999,
+                                      6.5453,
+                                      0.9987,
+                                      6.6409,
+                                      0.559,
+                                      6.6397
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.956,
+                          "spans": [
+                              {
+                                  "offset": 997,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "769 614,06",
+                          "content": "769 614,06",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7699,
+                                      6.5268,
+                                      4.2576,
+                                      6.5271,
+                                      4.2575,
+                                      6.6137,
+                                      3.7698,
+                                      6.6134
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1007,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "468 305,50",
+                          "content": "468 305,50",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.4785,
+                                      6.5182,
+                                      5.9639,
+                                      6.5179,
+                                      5.964,
+                                      6.6027,
+                                      5.4786,
+                                      6.603
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1018,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "301 308,56",
+                          "content": "301 308,56",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      7.1807,
+                                      6.5072,
+                                      7.6672,
+                                      6.5054,
+                                      7.6675,
+                                      6.5917,
+                                      7.181,
+                                      6.5935
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.973,
+                          "spans": [
+                              {
+                                  "offset": 1029,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.942
+              }
+          ],
+          "confidence": 0.381
+      },
+      "retenues": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "RETENUE DE GARANTIE 10%",
+                          "content": "RETENUE DE GARANTIE 10%",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.559,
+                                      7.0087,
+                                      1.7578,
+                                      7.0031,
+                                      1.7582,
+                                      7.0937,
+                                      0.5594,
+                                      7.0993
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.97,
+                          "spans": [
+                              {
+                                  "offset": 1121,
+                                  "length": 23
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "76 961,41",
+                          "content": "76 961,41",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2672,
+                                      6.9956,
+                                      3.6583,
+                                      6.9957,
+                                      3.6583,
+                                      7.0819,
+                                      3.2672,
+                                      7.0818
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1145,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "46 830,55",
+                          "content": "46 830,55",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      4.9724,
+                                      6.9821,
+                                      5.3704,
+                                      6.9819,
+                                      5.3704,
+                                      7.0688,
+                                      4.9724,
+                                      7.069
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1155,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "30 130,86",
+                          "content": "30 130,86",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.6771,
+                                      6.9749,
+                                      7.0747,
+                                      6.9755,
+                                      7.0746,
+                                      7.0594,
+                                      6.677,
+                                      7.0588
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1165,
+                                  "length": 9
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.95
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "RETENUE DE FINITION 7%",
+                          "content": "RETENUE DE FINITION 7%",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5604,
+                                      7.185,
+                                      1.6424,
+                                      7.1816,
+                                      1.6427,
+                                      7.2713,
+                                      0.5607,
+                                      7.2747
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.921,
+                          "spans": [
+                              {
+                                  "offset": 1175,
+                                  "length": 22
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "53 872,98",
+                          "content": "53 872,98",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2676,
+                                      7.1698,
+                                      3.664,
+                                      7.1694,
+                                      3.6641,
+                                      7.259,
+                                      3.2677,
+                                      7.2594
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.972,
+                          "spans": [
+                              {
+                                  "offset": 1198,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "32 781,38",
+                          "content": "32 781,38",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      4.9734,
+                                      7.1607,
+                                      5.3761,
+                                      7.1605,
+                                      5.3761,
+                                      7.247,
+                                      4.9734,
+                                      7.2472
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1208,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "21 091,60",
+                          "content": "21 091,60",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.677,
+                                      7.1503,
+                                      7.0768,
+                                      7.1499,
+                                      7.0769,
+                                      7.2361,
+                                      6.6771,
+                                      7.2365
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1218,
+                                  "length": 9
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.872
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "COMPTE PRORATA 2,5%",
+                          "content": "COMPTE PRORATA 2,5%",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5622,
+                                      7.3634,
+                                      1.5466,
+                                      7.3587,
+                                      1.547,
+                                      7.4485,
+                                      0.5626,
+                                      7.4532
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.955,
+                          "spans": [
+                              {
+                                  "offset": 1228,
+                                  "length": 19
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "19 240,35",
+                          "content": "19 240,35",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.2697,
+                                      7.3471,
+                                      3.664,
+                                      7.3461,
+                                      3.6642,
+                                      7.4356,
+                                      3.2699,
+                                      7.4366
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1248,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "11 707,64",
+                          "content": "11 707,64",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      4.9821,
+                                      7.3349,
+                                      5.382,
+                                      7.336,
+                                      5.3818,
+                                      7.4249,
+                                      4.9819,
+                                      7.4238
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1258,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "7 532,71",
+                          "content": "7 532,71",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.708,
+                                      7.3261,
+                                      7.0485,
+                                      7.3267,
+                                      7.0483,
+                                      7.413,
+                                      6.7078,
+                                      7.4124
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.972,
+                          "spans": [
+                              {
+                                  "offset": 1268,
+                                  "length": 8
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.93
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "RECUPERATION AVANCE 20% sur barres droites",
+                          "content": "RECUPERATION AVANCE 20% sur barres droites",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5612,
+                                      7.5916,
+                                      2.4881,
+                                      7.5835,
+                                      2.4885,
+                                      7.6784,
+                                      0.5616,
+                                      7.6865
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.97,
+                          "spans": [
+                              {
+                                  "offset": 1277,
+                                  "length": 42
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.3757,
+                                      7.58,
+                                      3.5544,
+                                      7.579,
+                                      3.5549,
+                                      7.6645,
+                                      3.3762,
+                                      7.6654
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1320,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.0865,
+                                      7.5693,
+                                      5.262,
+                                      7.5683,
+                                      5.2625,
+                                      7.6517,
+                                      5.087,
+                                      7.6526
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.973,
+                          "spans": [
+                              {
+                                  "offset": 1325,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7913,
+                                      7.5598,
+                                      6.9684,
+                                      7.5582,
+                                      6.9692,
+                                      7.6413,
+                                      6.792,
+                                      7.6429
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1330,
+                                  "length": 4
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.923
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "MOINS VALUE POUR MAUVAISE EXECUTION",
+                          "content": "MOINS VALUE POUR MAUVAISE EXECUTION",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5624,
+                                      7.8202,
+                                      2.3285,
+                                      7.8111,
+                                      2.329,
+                                      7.9048,
+                                      0.5629,
+                                      7.914
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.964,
+                          "spans": [
+                              {
+                                  "offset": 1335,
+                                  "length": 35
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.3785,
+                                      7.8108,
+                                      3.5555,
+                                      7.8097,
+                                      3.556,
+                                      7.8954,
+                                      3.379,
+                                      7.8965
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.969,
+                          "spans": [
+                              {
+                                  "offset": 1371,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.0891,
+                                      7.8004,
+                                      5.2621,
+                                      7.8006,
+                                      5.262,
+                                      7.8845,
+                                      5.089,
+                                      7.8843
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.973,
+                          "spans": [
+                              {
+                                  "offset": 1376,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7943,
+                                      7.791,
+                                      6.9684,
+                                      7.7894,
+                                      6.9692,
+                                      7.8741,
+                                      6.7951,
+                                      7.8757
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.968,
+                          "spans": [
+                              {
+                                  "offset": 1381,
+                                  "length": 4
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.94
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "2- RETENUES (Hors Approvionnement )": {
+                          "type": "string",
+                          "valueString": "TOTAL (2)",
+                          "content": "TOTAL (2)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5658,
+                                      8.0134,
+                                      1.0041,
+                                      8.0145,
+                                      1.0039,
+                                      8.1097,
+                                      0.5656,
+                                      8.1086
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.633,
+                          "spans": [
+                              {
+                                  "offset": 1386,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "CUMUL ACTUEL": {
+                          "type": "string",
+                          "valueString": "150 074,74",
+                          "content": "150 074,74",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7774,
+                                      7.9944,
+                                      4.2634,
+                                      7.9956,
+                                      4.2632,
+                                      8.0859,
+                                      3.7772,
+                                      8.0847
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.977,
+                          "spans": [
+                              {
+                                  "offset": 1396,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "91 319,57",
+                          "content": "91 319,57",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.5431,
+                                      7.9835,
+                                      5.9744,
+                                      7.9851,
+                                      5.9741,
+                                      8.0756,
+                                      5.5428,
+                                      8.074
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.974,
+                          "spans": [
+                              {
+                                  "offset": 1407,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "MENSUEL REALISE": {
+                          "type": "string",
+                          "valueString": "58 755,17",
+                          "content": "58 755,17",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      7.177,
+                                      7.9845,
+                                      7.6077,
+                                      7.9851,
+                                      7.6076,
+                                      8.0739,
+                                      7.1769,
+                                      8.0732
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.977,
+                          "spans": [
+                              {
+                                  "offset": 1417,
+                                  "length": 9
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.632
+              }
+          ],
+          "confidence": 0.606
+      },
+      "liberation_retenues": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "3- LIBERATION RETENUES": {
+                          "type": "string",
+                          "valueString": "RETENUE DE GARANTIE 10 %",
+                          "content": "RETENUE DE GARANTIE 10 %",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5642,
+                                      8.425,
+                                      1.7625,
+                                      8.4201,
+                                      1.7629,
+                                      8.5085,
+                                      0.5646,
+                                      8.5134
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.97,
+                          "spans": [
+                              {
+                                  "offset": 1492,
+                                  "length": 24
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.3797,
+                                      8.4139,
+                                      3.5555,
+                                      8.4129,
+                                      3.556,
+                                      8.4971,
+                                      3.3802,
+                                      8.4981
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.979,
+                          "spans": [
+                              {
+                                  "offset": 1517,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.0911,
+                                      8.4005,
+                                      5.2679,
+                                      8.4009,
+                                      5.2677,
+                                      8.4839,
+                                      5.0909,
+                                      8.4835
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.977,
+                          "spans": [
+                              {
+                                  "offset": 1522,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7977,
+                                      8.3931,
+                                      6.9737,
+                                      8.3921,
+                                      6.9741,
+                                      8.4733,
+                                      6.7981,
+                                      8.4743
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.973,
+                          "spans": [
+                              {
+                                  "offset": 1527,
+                                  "length": 4
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.961
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "3- LIBERATION RETENUES": {
+                          "type": "string",
+                          "valueString": "RETENUE DE FINITION 7 %",
+                          "content": "RETENUE DE FINITION 7 %",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5655,
+                                      8.5996,
+                                      1.6703,
+                                      8.5981,
+                                      1.6704,
+                                      8.6905,
+                                      0.5656,
+                                      8.692
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.956,
+                          "spans": [
+                              {
+                                  "offset": 1532,
+                                  "length": 23
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.3828,
+                                      8.5898,
+                                      3.561,
+                                      8.5893,
+                                      3.5612,
+                                      8.6723,
+                                      3.383,
+                                      8.6728
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.977,
+                          "spans": [
+                              {
+                                  "offset": 1556,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.094,
+                                      8.5787,
+                                      5.2681,
+                                      8.5795,
+                                      5.2677,
+                                      8.6614,
+                                      5.0936,
+                                      8.6606
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.976,
+                          "spans": [
+                              {
+                                  "offset": 1561,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7983,
+                                      8.5695,
+                                      6.9741,
+                                      8.5685,
+                                      6.9746,
+                                      8.651,
+                                      6.7988,
+                                      8.652
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1566,
+                                  "length": 4
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.956
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "3- LIBERATION RETENUES": {
+                          "type": "string",
+                          "valueString": "TOTAL (3)",
+                          "content": "TOTAL (3)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5677,
+                                      8.7763,
+                                      1.0056,
+                                      8.7811,
+                                      1.0045,
+                                      8.8814,
+                                      0.5666,
+                                      8.8766
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.956,
+                          "spans": [
+                              {
+                                  "offset": 1571,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "0,00",
+                          "content": "0,00",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      6.7928,
+                                      8.748,
+                                      6.9798,
+                                      8.747,
+                                      6.9802,
+                                      8.8296,
+                                      6.7932,
+                                      8.8306
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.978,
+                          "spans": [
+                              {
+                                  "offset": 1581,
+                                  "length": 4
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "confidence": 0.919
+                      },
+                      "precedent": {
+                          "type": "string",
+                          "confidence": 0.71
+                      }
+                  },
+                  "confidence": 0.953
+              }
+          ],
+          "confidence": 0.927
+      },
+      "total_dp": {
+          "type": "array",
+          "valueArray": [
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "total": {
+                          "type": "string",
+                          "valueString": "TOTAL (1) - (2) + (3)",
+                          "content": "TOTAL (1) - (2) + (3)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5687,
+                                      9.0133,
+                                      1.4326,
+                                      9.0143,
+                                      1.4325,
+                                      9.1193,
+                                      0.5686,
+                                      9.1184
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.664,
+                          "spans": [
+                              {
+                                  "offset": 1586,
+                                  "length": 21
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "619 539,32",
+                          "content": "619 539,32",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7815,
+                                      8.9972,
+                                      4.2692,
+                                      8.9987,
+                                      4.2689,
+                                      9.0891,
+                                      3.7812,
+                                      9.0876
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1608,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "376 985,92",
+                          "content": "376 985,92",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.4847,
+                                      8.9883,
+                                      5.975,
+                                      8.9893,
+                                      5.9748,
+                                      9.0772,
+                                      5.4845,
+                                      9.0762
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.969,
+                          "spans": [
+                              {
+                                  "offset": 1619,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "242 553,39",
+                          "content": "242 553,39",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      7.1949,
+                                      8.9791,
+                                      7.6819,
+                                      8.9794,
+                                      7.6818,
+                                      9.0671,
+                                      7.1948,
+                                      9.0668
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.974,
+                          "spans": [
+                              {
+                                  "offset": 1630,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.662
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "total": {
+                          "type": "string",
+                          "valueString": "TVA 20%",
+                          "content": "TVA 20%",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5699,
+                                      9.1952,
+                                      0.9702,
+                                      9.195,
+                                      0.9702,
+                                      9.284,
+                                      0.5699,
+                                      9.2842
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.957,
+                          "spans": [
+                              {
+                                  "offset": 1641,
+                                  "length": 7
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "123 907,86",
+                          "content": "123 907,86",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7871,
+                                      9.1746,
+                                      4.2749,
+                                      9.1762,
+                                      4.2746,
+                                      9.263,
+                                      3.7868,
+                                      9.2614
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.971,
+                          "spans": [
+                              {
+                                  "offset": 1649,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "75 397,18",
+                          "content": "75 397,18",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.5495,
+                                      9.1657,
+                                      5.9831,
+                                      9.1667,
+                                      5.9829,
+                                      9.2557,
+                                      5.5493,
+                                      9.2547
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1660,
+                                  "length": 9
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "48 510,68",
+                          "content": "48 510,68",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      7.2517,
+                                      9.1562,
+                                      7.6875,
+                                      9.156,
+                                      7.6875,
+                                      9.2442,
+                                      7.2517,
+                                      9.2444
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.977,
+                          "spans": [
+                              {
+                                  "offset": 1670,
+                                  "length": 9
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.968
+              },
+              {
+                  "type": "object",
+                  "valueObject": {
+                      "total": {
+                          "type": "string",
+                          "valueString": "RESTE DU A L'ENTREPRISE T T C. - (0)",
+                          "content": "RESTE DU A L'ENTREPRISE T T C. - (0)",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      0.5699,
+                                      9.3646,
+                                      2.1454,
+                                      9.3602,
+                                      2.1457,
+                                      9.4579,
+                                      0.5702,
+                                      9.4623
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.798,
+                          "spans": [
+                              {
+                                  "offset": 1680,
+                                  "length": 36
+                              }
+                          ]
+                      },
+                      "actuel": {
+                          "type": "string",
+                          "valueString": "596 165,78",
+                          "content": "596 165,78",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      3.7866,
+                                      9.3548,
+                                      4.2746,
+                                      9.3533,
+                                      4.2749,
+                                      9.44,
+                                      3.7869,
+                                      9.4415
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.699,
+                          "spans": [
+                              {
+                                  "offset": 1717,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "CUMUL PRECEDENT": {
+                          "type": "string",
+                          "valueString": "452 383,11",
+                          "content": "452 383,11",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      5.4927,
+                                      9.3459,
+                                      5.9753,
+                                      9.345,
+                                      5.9755,
+                                      9.4319,
+                                      5.4929,
+                                      9.4328
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.97,
+                          "spans": [
+                              {
+                                  "offset": 1728,
+                                  "length": 10
+                              }
+                          ]
+                      },
+                      "mensuel": {
+                          "type": "string",
+                          "valueString": "291 064,07",
+                          "content": "291 064,07",
+                          "boundingRegions": [
+                              {
+                                  "pageNumber": 1,
+                                  "polygon": [
+                                      7.1951,
+                                      9.3326,
+                                      7.6818,
+                                      9.332,
+                                      7.6819,
+                                      9.4217,
+                                      7.1952,
+                                      9.4223
+                                  ]
+                              }
+                          ],
+                          "confidence": 0.975,
+                          "spans": [
+                              {
+                                  "offset": 1739,
+                                  "length": 10
+                              }
+                          ]
+                      }
+                  },
+                  "confidence": 0.699
+              }
+          ],
+          "confidence": 0.644
+      }
+  }
+}
